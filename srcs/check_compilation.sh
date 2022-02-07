@@ -23,8 +23,8 @@ compilation()
 	MAIN_FILE="${PATH_TEST}/tests/$(echo ${part}tions)/$1/main.c"
 	COMPIL_ARGS="${COMPIL_FLAGS} ${MAIN_FILE} -L${PATH_LIBFT} -lft -I${PATH_LIBFT}"
 
-	printf "$> clang ${COMPIL_ARGS}\n\n" >> ${PATH_DEEPTHOUGHT}/deepthought
-	clang ${COMPIL_ARGS} 2>>${PATH_DEEPTHOUGHT}/deepthought -o user_exe
+	printf "$> $CC ${COMPIL_ARGS}\n\n" >> ${PATH_DEEPTHOUGHT}/deepthought
+	$CC ${COMPIL_ARGS} 2>>${PATH_DEEPTHOUGHT}/deepthought -o user_exe
 }
 
 check_compilation()

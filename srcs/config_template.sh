@@ -3,6 +3,7 @@
 ###################################
 #     Mandatory configuration     #
 ###################################
+CC=gcc
 
 #Edit the next line with the path of your libft project.
 PATH_LIBFT=~/libft

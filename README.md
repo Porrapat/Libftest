@@ -29,7 +29,7 @@ Makefile up to date.
 ```bash
 git clone https://github.com/jtoty/Libftest
 ```
-The project needs `clang` compiler. Make sure it is installed.
+The project needs `gcc` or `clang` compiler. Make sure it is installed. You can config in `CC` my_config.sh file
 
 #### Old libft subject
 To test the old libft subject, you have to go to the branch [old-libft](https://github.com/jtoty/Libftest/tree/old-libft).
