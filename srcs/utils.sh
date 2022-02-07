@@ -57,6 +57,8 @@ init_deepthought()
 	gcc --version >> ${PATH_DEEPTHOUGHT}/deepthought
 	printf "$> clang --version\n" >> ${PATH_DEEPTHOUGHT}/deepthought
 	clang --version >> ${PATH_DEEPTHOUGHT}/deepthought
+
+	printf "\n" >> ${PATH_DEEPTHOUGHT}/deepthought
 	printf "$> ----- Current Setting ----\n" >> ${PATH_DEEPTHOUGHT}/deepthought
 	printf "$> $CC --version\n" >> ${PATH_DEEPTHOUGHT}/deepthought
 	$CC --version >> ${PATH_DEEPTHOUGHT}/deepthought
