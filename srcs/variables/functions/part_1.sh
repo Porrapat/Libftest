@@ -25,7 +25,6 @@ Part1_func=(
 	'ft_isascii'	\
 	'ft_isdigit'	\
 	'ft_isprint'	\
-	'ft_memccpy'	\
 	'ft_memchr'		\
 	'ft_memcmp'		\
 	'ft_memcpy'		\
