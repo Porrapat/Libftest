@@ -46,7 +46,6 @@ Additional_func=(
 	'ft_strdel'				\
 	'ft_strequ'				\
 	'ft_striter'			\
-	'ft_striteri'			\
 	'ft_strlowcase'			\
 	'ft_strmap'				\
 	'ft_strncasecmp'		\

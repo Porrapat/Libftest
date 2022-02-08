@@ -25,6 +25,7 @@ Part2_func=(
 	'ft_split'		\
 	'ft_strjoin'	\
 	'ft_strmapi'	\
+	'ft_striteri'	\
 	'ft_strtrim'	\
 	'ft_substr'		\
 )
