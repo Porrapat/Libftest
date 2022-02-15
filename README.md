@@ -27,7 +27,7 @@ Makefile up to date.
 ### Installation
 
 ```bash
-git clone https://github.com/jtoty/Libftest
+git clone https://github.com/Porrapat/Libftest
 ```
 The project needs `gcc` or `clang` compiler. Make sure it is installed. You can config in `CC` my_config.sh file
 
